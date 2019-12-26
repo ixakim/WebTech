@@ -1,1 +1,1 @@
-# WecTech
+# WebTech
