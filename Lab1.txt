@@ -10,3 +10,4 @@ cd "c:\users\Хаким"
 wget --post-data=searchstring=test11111111111 https://elecomp.ru/search/
 
 # Данным скриптом был произведен поиск на указанном сайте и создан файл index.html с результатом поиска.
+# Сдано
