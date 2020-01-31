@@ -5,64 +5,50 @@
 </head>
 
 <body>
-<div class="wrapper">
-
-    <div class="table">
-        <div class="toprow">        				
-            <div class="c70">Наименование</div><div class="c15">Цена</div><div class="c15">Наличие</div>			
-        </div>
-    </div>
-    <div class="table">
-		<div class="row">
-			<div class="col c70">Масло моторное FORD FORMULA F 5W-30</div><div class="col c15">1858 р.</div><div class="col c15">1</div>
-		</div>
-        <div class="row">
-            <div class="col c70">Масло моторное NISSAN MOTOR OIL SAE 5W-40</div><div class="col c15">2085 р.</div><div class="col c15">3</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное HYUNDAI/KIA HYUNDAI TURBO SYN 5W-30</div><div class="col c15">1850 р.</div><div class="col c15">10</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное GENERAL MOTORS GM DEXOS2 5W-30 (EU)</div><div class="col c15">1465 р.</div><div class="col c15">16</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное TOTAL QUARTZ INEO ECS 5W-30</div><div class="col c15">2000 р.</div><div class="col c15">8</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное MOBIL Mobil Super 3000 X1 5W-40</div><div class="col c15">1857 р.</div><div class="col c15">7</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное TOTAL QUARTZ 9000 ENERGY HKS G-310 5W-30</div><div class="col c15">2000 р.</div><div class="col c15">10</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное MOBIL Mobil Super 3000 X1 5W-40</div><div class="col c15">529 р.</div><div class="col c15">18</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное GENERAL MOTORS GM DEXOS2 5W-30 (RU)</div><div class="col c15">1407 р.</div><div class="col c15">8</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное NISSAN MOTOR OIL SAE 5W-40</div><div class="col c15">459 р.</div><div class="col c15">13</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное TOYOTA MOTOR OIL SN 5W-30</div><div class="col c15">2157 р.</div><div class="col c15">8</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное PETRO-CANADA SUPREME SYNTHETIC 5W-30</div><div class="col c15">1802 р.</div><div class="col c15">16</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное VAG Special G 5W-40</div><div class="col c15">3117 р.</div><div class="col c15">16</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное TOYOTA ENGINE OIL SYNTHETIC 5W-40</div><div class="col c15">2666 р.</div><div class="col c15">15</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное ELF EVOLUTION 900 SXR 5W-30</div><div class="col c15">2000 р.</div><div class="col c15">20</div>
-        </div>
-        <div class="row">
-            <div class="col c70">Масло моторное BMW/MINI/RR BMW TWINPOWER TURBO LONGLIFE-04 5W-30</div><div class="col c15">629 р.</div><div class="col c15">6</div>
-        </div>
-	</div>
-    
-</div>
+<wrapper>
+    <price_table>
+        <toprow>
+            <name>Наименование</name><price>Цена</price><count>Наличие</count>
+        </toprow>
+    <!--</div> таблица продолжается! -->
+    <!--<div class="table"> -->
+		<row>
+			<name>Масло моторное FORD FORMULA F 5W-30</name>
+			<price>1858<currency>₽</currency></price>
+			<count>1</count>
+		</row> <!-- продолжение в том-же духе, css потом привязать можно к именам элементов.-->
+		<row>
+			<name>Масло моторное HYUNDAI/KIA HYUNDAI TURBO SYN 5W-30</name>
+			<price>1850<currency>₽</currency></price>
+			<count>10</count>
+		</row>
+		<row>
+			<name>Масло моторное GENERAL MOTORS GM DEXOS2 5W-30 (EU)</name>
+			<price>1465<currency>₽</currency></price>
+			<count>16</count>
+		</row>
+		<row>
+			<name>Масло моторное TOTAL QUARTZ INEO ECS 5W-30</name>
+			<price>2000<currency>₽</currency></price>
+			<count>8</count>
+		</row>
+		<row>
+			<name>Масло моторное MOBIL Mobil Super 3000 X1 5W-40</name>
+			<price>1857<currency>₽</currency></price>
+			<count>7</count>
+		</row>
+		<row>
+			<name>Масло моторное TOTAL QUARTZ 9000 ENERGY HKS G-310 5W-30</name>
+			<price>2000<currency>₽</currency></price>
+			<count>10</count>
+		</row><row>
+			<name>Масло моторное MOBIL Mobil Super 3000 X1 5W-40</name>
+			<price>529<currency>₽</currency></price>
+			<count>18</count>
+		</row><row>
+			<name>Масло моторное GENERAL MOTORS GM DEXOS2 5W-30 (RU)</name>
+			<price>1407<currency>₽</currency></price>
+			<count>18</count>
+		</row>
 </body>
 </html>
