@@ -29,24 +29,14 @@ row{
    z-index:1;
 }
 
-row1{
-   position:relative;   
-   width:100%;   
-   top:0px;
-   font-size: 16pt;
-   z-index:1;
+row:nth-child(n){
    background-color: LightCyan;
-}
+} 
 
-row2{
-   position:relative;   
-   width:100%;   
-   top:0px;
-   font-size: 16pt;
-   z-index:1;
+row:nth-child(2n){
    background-color: Cyan;
-}
- 
+} 
+
 name{
 	width:68%;
 	display: inline-block ;
