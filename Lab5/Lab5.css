@@ -1,0 +1,81 @@
+<style type="text/css">
+
+html {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	margin: 0px;
+	padding:0px;
+}
+
+mainblock {
+	width:80%;
+	display: inline-block ;
+}
+
+updbtn {
+	margin-top:50px;
+	margin-left	:20px;
+	padding:20px;
+	width:10%;
+	height:100px;
+	display: inline-block;
+	background-color: green;
+	vertical-align:top;
+	text-align:center;
+	font-size: 16pt;
+	font-weight: 600;
+	color: white;
+}
+
+toprow{
+   width:80%;
+   position:fixed;
+   top:0px;
+   font-size: 16pt;
+   z-index:2;
+   background-color: LightSeaGreen;
+   font-weight: 600;
+   color: white;
+}
+ 
+row{
+   position:relative;   
+   width:100%;   
+   top:0px;
+   font-size: 16pt;
+   z-index:1;
+}
+
+row:nth-child(odd){
+   background-color: LightCyan;
+} 
+
+row:nth-child(even){
+   background-color: Cyan;
+} 
+
+name{
+	width:68%;
+	display: inline-block ;
+	  
+}
+ 
+price{
+	width:10%;
+	display: inline-block ;
+} 
+ 
+currency{
+	width:10%;
+	display: inline-block ;
+}  
+
+count{
+	width:10%;
+	display: inline-block ;	
+}   
+  
+</style>
